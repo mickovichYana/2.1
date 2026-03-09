@@ -30,6 +30,8 @@ int main() {
   std::cin >> n;
   for (int i = 0; i < n; i++) {
     int num;
+    // FIX_ME: Улучшен вывод
+    // cout << "Введите элемент стека" << endl;
     std::cout << "Введите элемент " << i + 1 << ": ";
     std::cin >> num;
     stack.Add(num);
